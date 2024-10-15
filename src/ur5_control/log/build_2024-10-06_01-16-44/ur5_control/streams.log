@@ -1,0 +1,38 @@
+[5.029s] Invoking command in '/home/manab/colcon_ws/src/ur5_control/build/ur5_control': PYTHONPATH=/home/manab/colcon_ws/src/ur5_control/build/ur5_control/prefix_override:/home/manab/colcon_ws/src/ur5_control/install/ur5_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/manab/colcon_ws/src/ur5_control/build/ur5_control/build --no-deps symlink_data
+[5.317s] /home/manab/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[5.317s]   warnings.warn(msg)
+[5.683s] running develop
+[5.690s] /home/manab/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.690s] !!
+[5.690s] 
+[5.690s]         ********************************************************************************
+[5.690s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.690s]         Instead, use pypa/build, pypa/installer or other
+[5.690s]         standards-based tools.
+[5.690s] 
+[5.690s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.690s]         ********************************************************************************
+[5.690s] 
+[5.690s] !!
+[5.691s]   easy_install.initialize_options(self)
+[6.356s] running egg_info
+[6.356s] creating ur5_control.egg-info
+[6.378s] writing ur5_control.egg-info/PKG-INFO
+[6.379s] writing dependency_links to ur5_control.egg-info/dependency_links.txt
+[6.379s] writing entry points to ur5_control.egg-info/entry_points.txt
+[6.379s] writing requirements to ur5_control.egg-info/requires.txt
+[6.379s] writing top-level names to ur5_control.egg-info/top_level.txt
+[6.380s] writing manifest file 'ur5_control.egg-info/SOURCES.txt'
+[7.524s] reading manifest file 'ur5_control.egg-info/SOURCES.txt'
+[7.526s] writing manifest file 'ur5_control.egg-info/SOURCES.txt'
+[7.580s] running build_ext
+[7.581s] Creating /home/manab/colcon_ws/src/ur5_control/install/ur5_control/lib/python3.10/site-packages/ur5-control.egg-link (link to .)
+[7.582s] Installing task1b script to /home/manab/colcon_ws/src/ur5_control/install/ur5_control/lib/ur5_control
+[7.583s] 
+[7.583s] Installed /home/manab/colcon_ws/src/ur5_control/build/ur5_control
+[7.583s] running symlink_data
+[7.583s] creating /home/manab/colcon_ws/src/ur5_control/install/ur5_control/share/ament_index/resource_index/packages
+[7.584s] symbolically linking /home/manab/colcon_ws/src/ur5_control/build/ur5_control/resource/ur5_control -> /home/manab/colcon_ws/src/ur5_control/install/ur5_control/share/ament_index/resource_index/packages
+[7.584s] symbolically linking /home/manab/colcon_ws/src/ur5_control/build/ur5_control/package.xml -> /home/manab/colcon_ws/src/ur5_control/install/ur5_control/share/ur5_control
+[7.584s] symbolically linking /home/manab/colcon_ws/src/ur5_control/build/ur5_control/ur5_control/__init__.py -> /home/manab/colcon_ws/src/ur5_control/install/ur5_control/lib/ur5_control
+[7.681s] Invoked command in '/home/manab/colcon_ws/src/ur5_control/build/ur5_control' returned '0': PYTHONPATH=/home/manab/colcon_ws/src/ur5_control/build/ur5_control/prefix_override:/home/manab/colcon_ws/src/ur5_control/install/ur5_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/manab/colcon_ws/src/ur5_control/build/ur5_control/build --no-deps symlink_data

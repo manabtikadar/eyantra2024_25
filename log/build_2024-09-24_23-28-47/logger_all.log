@@ -1,0 +1,726 @@
+[0.345s] DEBUG:colcon:Command line arguments: ['/home/manab/.local/bin/colcon', 'build']
+[0.346s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d9eab00ec20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d9eab00de40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d9eab00de40>>, mixin_verb=('build',))
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.450s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/manab/colcon_ws'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'ros'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extensions ['cmake', 'python']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'cmake'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'python'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extensions ['python_setup_py']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'python_setup_py'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'ros'
+[0.491s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ebot_description' with type 'ros.ament_cmake' and name 'ebot_description'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extension 'ros'
+[0.493s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ebot_nav2' with type 'ros.ament_cmake' and name 'ebot_nav2'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'ros'
+[0.495s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eyantra_warehouse' with type 'ros.ament_cmake' and name 'eyantra_warehouse'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['colcon_pkg']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'colcon_pkg'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['colcon_meta']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'colcon_meta'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'ros'
+[0.498s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linkattacher_msgs' with type 'ros.ament_cmake' and name 'linkattacher_msgs'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ignore_ament_install'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['colcon_pkg']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'colcon_pkg'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['colcon_meta']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'colcon_meta'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['ros']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ros'
+[0.502s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pymoveit2' with type 'ros.ament_cmake' and name 'pymoveit2'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'ros'
+[0.504s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense_gazebo_plugin' with type 'ros.ament_cmake' and name 'realsense_gazebo_plugin'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extension 'ros'
+[0.505s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5_control' with type 'ros.ament_python' and name 'ur5_control'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ros'
+[0.507s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_moveit_config) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_moveit_config) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_moveit_config) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_moveit_config) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_moveit_config) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_moveit_config) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_moveit_config) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_moveit_config) by extension 'ros'
+[0.509s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gazebo) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gazebo) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gazebo) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gazebo) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gazebo) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gazebo) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gazebo) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gazebo) by extension 'ros'
+[0.511s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_simulation_gazebo' with type 'ros.ament_cmake' and name 'ur_simulation_gazebo'
+[0.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.567s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/manab/colcon_ws/install
+[0.570s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 22 installed packages in /home/manab/ros2_ws/install
+[0.573s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 374 installed packages in /opt/ros/humble
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_args' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_target' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.663s] DEBUG:colcon.colcon_core.verb:Building package 'ebot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manab/colcon_ws/build/ebot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manab/colcon_ws/install/ebot_description', 'merge_install': False, 'path': '/home/manab/colcon_ws/src/ebot_description', 'symlink_install': False, 'test_result_base': None}
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_args' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_target' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.664s] DEBUG:colcon.colcon_core.verb:Building package 'ebot_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manab/colcon_ws/build/ebot_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manab/colcon_ws/install/ebot_nav2', 'merge_install': False, 'path': '/home/manab/colcon_ws/src/ebot_nav2', 'symlink_install': False, 'test_result_base': None}
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_target' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_clean_cache' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_clean_first' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_force_configure' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'ament_cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'catkin_cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.665s] DEBUG:colcon.colcon_core.verb:Building package 'eyantra_warehouse' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manab/colcon_ws/build/eyantra_warehouse', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manab/colcon_ws/install/eyantra_warehouse', 'merge_install': False, 'path': '/home/manab/colcon_ws/src/eyantra_warehouse', 'symlink_install': False, 'test_result_base': None}
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.666s] DEBUG:colcon.colcon_core.verb:Building package 'linkattacher_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manab/colcon_ws/build/linkattacher_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manab/colcon_ws/install/linkattacher_msgs', 'merge_install': False, 'path': '/home/manab/colcon_ws/src/linkattacher_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_first' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_force_configure' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'ament_cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.667s] DEBUG:colcon.colcon_core.verb:Building package 'pymoveit2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manab/colcon_ws/build/pymoveit2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manab/colcon_ws/install/pymoveit2', 'merge_install': False, 'path': '/home/manab/colcon_ws/src/pymoveit2', 'symlink_install': False, 'test_result_base': None}
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_args' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_target' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.668s] DEBUG:colcon.colcon_core.verb:Building package 'realsense_gazebo_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manab/colcon_ws/build/realsense_gazebo_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manab/colcon_ws/install/realsense_gazebo_plugin', 'merge_install': False, 'path': '/home/manab/colcon_ws/src/realsense_gazebo_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_args' from command line to 'None'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_target' from command line to 'None'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.669s] DEBUG:colcon.colcon_core.verb:Building package 'ur5_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manab/colcon_ws/build/ur5_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manab/colcon_ws/install/ur5_control', 'merge_install': False, 'path': '/home/manab/colcon_ws/src/ur5_control', 'symlink_install': False, 'test_result_base': None}
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.670s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manab/colcon_ws/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manab/colcon_ws/install/ur_description', 'merge_install': False, 'path': '/home/manab/colcon_ws/src/ur_description', 'symlink_install': False, 'test_result_base': None}
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.671s] DEBUG:colcon.colcon_core.verb:Building package 'ur_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manab/colcon_ws/build/ur_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manab/colcon_ws/install/ur_moveit_config', 'merge_install': False, 'path': '/home/manab/colcon_ws/src/ur_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.672s] DEBUG:colcon.colcon_core.verb:Building package 'ur_simulation_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manab/colcon_ws/build/ur_simulation_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manab/colcon_ws/install/ur_simulation_gazebo', 'merge_install': False, 'path': '/home/manab/colcon_ws/src/ur_simulation_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.672s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.677s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.680s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manab/colcon_ws/src/ur_description' with build type 'ament_cmake'
+[0.683s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manab/colcon_ws/src/ur_description'
+[0.687s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.687s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.687s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.703s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manab/colcon_ws/src/ebot_description' with build type 'ament_cmake'
+[0.703s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manab/colcon_ws/src/ebot_description'
+[0.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.704s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.726s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manab/colcon_ws/src/ebot_nav2' with build type 'ament_cmake'
+[0.727s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manab/colcon_ws/src/ebot_nav2'
+[0.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.732s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.759s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manab/colcon_ws/src/eyantra_warehouse' with build type 'ament_cmake'
+[0.760s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manab/colcon_ws/src/eyantra_warehouse'
+[0.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/ur_description -- -j4 -l4
+[0.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/ebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/ebot_description -- -j4 -l4
+[0.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/ebot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/ebot_nav2 -- -j4 -l4
+[0.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/eyantra_warehouse': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/eyantra_warehouse -- -j4 -l4
+[0.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/ur_description -- -j4 -l4
+[1.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/eyantra_warehouse -- -j4 -l4
+[1.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/ebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/ebot_description -- -j4 -l4
+[1.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/ur_description
+[1.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/eyantra_warehouse': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/eyantra_warehouse
+[1.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/ebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/ebot_description
+[1.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_description)
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_description' for CMake module files
+[1.434s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_description' for CMake config files
+[1.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_description', 'cmake_prefix_path')
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.ps1'
+[1.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.dsv'
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.sh'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_description/bin'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_description/lib/pkgconfig/ebot_description.pc'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_description/lib/python3.10/site-packages'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_description/bin'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/package.ps1'
+[1.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/package.dsv'
+[1.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/package.sh'
+[1.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/package.bash'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/package.zsh'
+[1.479s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/ebot_description/share/colcon-core/packages/ebot_description)
+[1.499s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_description' for CMake module files
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_description' for CMake config files
+[1.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_description/lib'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_description/bin'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.523s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_description/lib/python3.10/site-packages'
+[1.537s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_description/bin'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_description/share/ur_description/package.ps1'
+[1.543s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/ur_description/share/ur_description/package.dsv'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_description/share/ur_description/package.sh'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_description/share/ur_description/package.bash'
+[1.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_description/share/ur_description/package.zsh'
+[1.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/ur_description/share/colcon-core/packages/ur_description)
+[1.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/ebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/ebot_description
+[1.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eyantra_warehouse)
+[1.591s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/eyantra_warehouse' for CMake module files
+[1.592s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/eyantra_warehouse' for CMake config files
+[1.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyantra_warehouse', 'cmake_prefix_path')
+[1.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.ps1'
+[1.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.dsv'
+[1.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.sh'
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/eyantra_warehouse/bin'
+[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/eyantra_warehouse/lib/pkgconfig/eyantra_warehouse.pc'
+[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/eyantra_warehouse/lib/python3.10/site-packages'
+[1.619s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/eyantra_warehouse/bin'
+[1.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.ps1'
+[1.621s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.dsv'
+[1.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.sh'
+[1.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.bash'
+[1.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.zsh'
+[1.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/eyantra_warehouse/share/colcon-core/packages/eyantra_warehouse)
+[1.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_description)
+[1.677s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_description' for CMake module files
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_description' for CMake config files
+[1.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_description', 'cmake_prefix_path')
+[1.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.ps1'
+[1.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.dsv'
+[1.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.sh'
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_description/bin'
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_description/lib/pkgconfig/ebot_description.pc'
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_description/lib/python3.10/site-packages'
+[1.681s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_description/bin'
+[1.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/package.ps1'
+[1.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/package.dsv'
+[1.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/package.sh'
+[1.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/package.bash'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_description/share/ebot_description/package.zsh'
+[1.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/ebot_description/share/colcon-core/packages/ebot_description)
+[1.684s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manab/colcon_ws/src/linkattacher_msgs' with build type 'ament_cmake'
+[1.684s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manab/colcon_ws/src/linkattacher_msgs'
+[1.684s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.684s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/ur_description
+[1.714s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[1.715s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_description' for CMake module files
+[1.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/eyantra_warehouse
+[1.717s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_description' for CMake config files
+[1.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.729s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_description/lib'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_description/bin'
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_description/lib/python3.10/site-packages'
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_description/bin'
+[1.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_description/share/ur_description/package.ps1'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/ur_description/share/ur_description/package.dsv'
+[1.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_description/share/ur_description/package.sh'
+[1.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_description/share/ur_description/package.bash'
+[1.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_description/share/ur_description/package.zsh'
+[1.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/ur_description/share/colcon-core/packages/ur_description)
+[1.741s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manab/colcon_ws/src/ur_moveit_config' with build type 'ament_cmake'
+[1.741s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manab/colcon_ws/src/ur_moveit_config'
+[1.741s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.741s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/linkattacher_msgs -- -j4 -l4
+[1.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eyantra_warehouse)
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/eyantra_warehouse' for CMake module files
+[1.775s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/eyantra_warehouse' for CMake config files
+[1.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyantra_warehouse', 'cmake_prefix_path')
+[1.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.ps1'
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.dsv'
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.sh'
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/eyantra_warehouse/bin'
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/eyantra_warehouse/lib/pkgconfig/eyantra_warehouse.pc'
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/eyantra_warehouse/lib/python3.10/site-packages'
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/eyantra_warehouse/bin'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.ps1'
+[1.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.dsv'
+[1.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.sh'
+[1.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.bash'
+[1.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.zsh'
+[1.792s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/eyantra_warehouse/share/colcon-core/packages/eyantra_warehouse)
+[1.794s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manab/colcon_ws/src/pymoveit2' with build type 'ament_cmake'
+[1.795s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manab/colcon_ws/src/pymoveit2'
+[1.795s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.796s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/manab/colcon_ws/install/ur_description:/home/manab/colcon_ws/install/ur_simulation_gazebo:/home/manab/colcon_ws/install/ur_moveit_config:/home/manab/colcon_ws/install/realsense_gazebo_plugin:/home/manab/colcon_ws/install/pymoveit2:/home/manab/colcon_ws/install/linkattacher_msgs:/home/manab/colcon_ws/install/eyantra_warehouse:/home/manab/colcon_ws/install/ebot_nav2:/home/manab/colcon_ws/install/ebot_description:/home/manab/ros2_ws/install/examples_rclcpp_wait_set:/home/manab/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/manab/ros2_ws/install/examples_rclcpp_minimal_timer:/home/manab/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclcpp_minimal_service:/home/manab/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/manab/ros2_ws/install/examples_rclcpp_minimal_composition:/home/manab/ros2_ws/install/examples_rclcpp_minimal_client:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/manab/ros2_ws/install/examples_rclcpp_cbg_executor:/home/manab/ros2_ws/install/examples_rclcpp_async_client:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/ur_moveit_config -- -j4 -l4
+[1.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/pymoveit2 -- -j4 -l4
+[1.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/manab/colcon_ws/install/ur_description:/home/manab/colcon_ws/install/ur_simulation_gazebo:/home/manab/colcon_ws/install/ur_moveit_config:/home/manab/colcon_ws/install/realsense_gazebo_plugin:/home/manab/colcon_ws/install/pymoveit2:/home/manab/colcon_ws/install/linkattacher_msgs:/home/manab/colcon_ws/install/eyantra_warehouse:/home/manab/colcon_ws/install/ebot_nav2:/home/manab/colcon_ws/install/ebot_description:/home/manab/ros2_ws/install/examples_rclcpp_wait_set:/home/manab/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/manab/ros2_ws/install/examples_rclcpp_minimal_timer:/home/manab/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclcpp_minimal_service:/home/manab/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/manab/ros2_ws/install/examples_rclcpp_minimal_composition:/home/manab/ros2_ws/install/examples_rclcpp_minimal_client:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/manab/ros2_ws/install/examples_rclcpp_cbg_executor:/home/manab/ros2_ws/install/examples_rclcpp_async_client:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/ur_moveit_config -- -j4 -l4
+[1.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/manab/colcon_ws/install/ur_description:/home/manab/colcon_ws/install/ur_simulation_gazebo:/home/manab/colcon_ws/install/ur_moveit_config:/home/manab/colcon_ws/install/realsense_gazebo_plugin:/home/manab/colcon_ws/install/pymoveit2:/home/manab/colcon_ws/install/linkattacher_msgs:/home/manab/colcon_ws/install/eyantra_warehouse:/home/manab/colcon_ws/install/ebot_nav2:/home/manab/colcon_ws/install/ebot_description:/home/manab/ros2_ws/install/examples_rclcpp_wait_set:/home/manab/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/manab/ros2_ws/install/examples_rclcpp_minimal_timer:/home/manab/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclcpp_minimal_service:/home/manab/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/manab/ros2_ws/install/examples_rclcpp_minimal_composition:/home/manab/ros2_ws/install/examples_rclcpp_minimal_client:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/manab/ros2_ws/install/examples_rclcpp_cbg_executor:/home/manab/ros2_ws/install/examples_rclcpp_async_client:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/ur_moveit_config
+[2.051s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_moveit_config' for CMake module files
+[2.052s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_moveit_config' for CMake config files
+[2.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[2.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[2.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/manab/colcon_ws/install/ur_description:/home/manab/colcon_ws/install/ur_simulation_gazebo:/home/manab/colcon_ws/install/ur_moveit_config:/home/manab/colcon_ws/install/realsense_gazebo_plugin:/home/manab/colcon_ws/install/pymoveit2:/home/manab/colcon_ws/install/linkattacher_msgs:/home/manab/colcon_ws/install/eyantra_warehouse:/home/manab/colcon_ws/install/ebot_nav2:/home/manab/colcon_ws/install/ebot_description:/home/manab/ros2_ws/install/examples_rclcpp_wait_set:/home/manab/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/manab/ros2_ws/install/examples_rclcpp_minimal_timer:/home/manab/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclcpp_minimal_service:/home/manab/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/manab/ros2_ws/install/examples_rclcpp_minimal_composition:/home/manab/ros2_ws/install/examples_rclcpp_minimal_client:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/manab/ros2_ws/install/examples_rclcpp_cbg_executor:/home/manab/ros2_ws/install/examples_rclcpp_async_client:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/ur_moveit_config
+[2.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[2.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_moveit_config/bin'
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_moveit_config/lib/python3.10/site-packages'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_moveit_config/bin'
+[2.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[2.072s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[2.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[2.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[2.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[2.294s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_moveit_config' for CMake module files
+[2.295s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_moveit_config' for CMake config files
+[2.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[2.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[2.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[2.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_moveit_config/bin'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_moveit_config/lib/python3.10/site-packages'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_moveit_config/bin'
+[2.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[2.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[2.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[2.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[2.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[2.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[2.321s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manab/colcon_ws/src/realsense_gazebo_plugin' with build type 'ament_cmake'
+[2.323s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manab/colcon_ws/src/realsense_gazebo_plugin'
+[2.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/realsense_gazebo_plugin -- -j4 -l4
+[2.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/realsense_gazebo_plugin -- -j4 -l4
+[3.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/realsense_gazebo_plugin
+[3.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense_gazebo_plugin)
+[3.276s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/realsense_gazebo_plugin' for CMake module files
+[3.277s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/realsense_gazebo_plugin' for CMake config files
+[3.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'cmake_prefix_path')
+[3.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.ps1'
+[3.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/realsense_gazebo_plugin
+[3.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.dsv'
+[3.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.sh'
+[3.290s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/realsense_gazebo_plugin/lib'
+[3.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'ld_library_path_lib')
+[3.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.ps1'
+[3.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.dsv'
+[3.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.sh'
+[3.302s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/realsense_gazebo_plugin/bin'
+[3.302s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/realsense_gazebo_plugin/lib/pkgconfig/realsense_gazebo_plugin.pc'
+[3.303s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/realsense_gazebo_plugin/lib/python3.10/site-packages'
+[3.303s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/realsense_gazebo_plugin/bin'
+[3.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.ps1'
+[3.310s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv'
+[3.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.sh'
+[3.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.bash'
+[3.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.zsh'
+[3.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/colcon-core/packages/realsense_gazebo_plugin)
+[3.570s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense_gazebo_plugin)
+[3.575s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/realsense_gazebo_plugin' for CMake module files
+[3.575s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/realsense_gazebo_plugin' for CMake config files
+[3.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'cmake_prefix_path')
+[3.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.ps1'
+[3.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.dsv'
+[3.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.sh'
+[3.600s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/realsense_gazebo_plugin/lib'
+[3.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'ld_library_path_lib')
+[3.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.ps1'
+[3.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.dsv'
+[3.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.sh'
+[3.649s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/realsense_gazebo_plugin/bin'
+[3.653s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/realsense_gazebo_plugin/lib/pkgconfig/realsense_gazebo_plugin.pc'
+[3.661s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/realsense_gazebo_plugin/lib/python3.10/site-packages'
+[3.661s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/realsense_gazebo_plugin/bin'
+[3.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.ps1'
+[3.686s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv'
+[3.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.sh'
+[3.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.bash'
+[3.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.zsh'
+[3.711s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/realsense_gazebo_plugin/share/colcon-core/packages/realsense_gazebo_plugin)
+[3.723s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/manab/colcon_ws/src/ur5_control' with build type 'ament_python'
+[3.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_control', 'ament_prefix_path')
+[3.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur5_control/share/ur5_control/hook/ament_prefix_path.ps1'
+[3.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/ur5_control/share/ur5_control/hook/ament_prefix_path.dsv'
+[3.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur5_control/share/ur5_control/hook/ament_prefix_path.sh'
+[3.769s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.722s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/manab/colcon_ws/src/ur5_control'
+[4.722s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.723s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/pymoveit2 -- -j4 -l4
+[4.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/ebot_nav2 -- -j4 -l4
+[4.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/pymoveit2
+[4.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/ebot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/ebot_nav2
+[5.158s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_nav2)
+[5.160s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_nav2' for CMake module files
+[5.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/ebot_nav2
+[5.167s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_nav2' for CMake config files
+[5.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_nav2', 'cmake_prefix_path')
+[5.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.ps1'
+[5.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.dsv'
+[5.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.sh'
+[5.190s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_nav2/lib'
+[5.191s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_nav2/bin'
+[5.191s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_nav2/lib/pkgconfig/ebot_nav2.pc'
+[5.195s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_nav2/lib/python3.10/site-packages'
+[5.196s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_nav2/bin'
+[5.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.ps1'
+[5.206s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.dsv'
+[5.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.sh'
+[5.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.bash'
+[5.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.zsh'
+[5.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/ebot_nav2/share/colcon-core/packages/ebot_nav2)
+[5.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pymoveit2)
+[5.294s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/pymoveit2' for CMake module files
+[5.294s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/pymoveit2' for CMake config files
+[5.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'cmake_prefix_path')
+[5.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.ps1'
+[5.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.dsv'
+[5.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/pymoveit2
+[5.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.sh'
+[5.324s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/pymoveit2/lib'
+[5.325s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/pymoveit2/bin'
+[5.325s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/pymoveit2/lib/pkgconfig/pymoveit2.pc'
+[5.325s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/pymoveit2/lib/python3.10/site-packages'
+[5.340s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/pymoveit2/bin'
+[5.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/package.ps1'
+[5.347s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/package.dsv'
+[5.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/package.sh'
+[5.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/package.bash'
+[5.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/package.zsh'
+[5.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/pymoveit2/share/colcon-core/packages/pymoveit2)
+[5.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_nav2)
+[5.489s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_nav2' for CMake module files
+[5.489s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_nav2' for CMake config files
+[5.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_nav2', 'cmake_prefix_path')
+[5.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.ps1'
+[5.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.dsv'
+[5.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.sh'
+[5.516s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_nav2/lib'
+[5.516s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_nav2/bin'
+[5.516s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_nav2/lib/pkgconfig/ebot_nav2.pc'
+[5.520s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_nav2/lib/python3.10/site-packages'
+[5.521s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ebot_nav2/bin'
+[5.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.ps1'
+[5.531s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.dsv'
+[5.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.sh'
+[5.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.bash'
+[5.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.zsh'
+[5.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/ebot_nav2/share/colcon-core/packages/ebot_nav2)
+[5.587s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manab/colcon_ws/src/ur_simulation_gazebo' with build type 'ament_cmake'
+[5.587s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manab/colcon_ws/src/ur_simulation_gazebo'
+[5.590s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.590s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pymoveit2)
+[5.654s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/pymoveit2' for CMake module files
+[5.655s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/pymoveit2' for CMake config files
+[5.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'cmake_prefix_path')
+[5.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.ps1'
+[5.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.dsv'
+[5.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.sh'
+[5.700s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/pymoveit2/lib'
+[5.700s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/pymoveit2/bin'
+[5.700s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/pymoveit2/lib/pkgconfig/pymoveit2.pc'
+[5.700s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/pymoveit2/lib/python3.10/site-packages'
+[5.701s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/pymoveit2/bin'
+[5.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/package.ps1'
+[5.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/package.dsv'
+[5.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/package.sh'
+[5.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/package.bash'
+[5.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/package.zsh'
+[5.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/pymoveit2/share/colcon-core/packages/pymoveit2)
+[5.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/manab/colcon_ws/install/ur_moveit_config:/home/manab/colcon_ws/install/ur_description:/home/manab/colcon_ws/install/ur_simulation_gazebo:/home/manab/colcon_ws/install/realsense_gazebo_plugin:/home/manab/colcon_ws/install/pymoveit2:/home/manab/colcon_ws/install/linkattacher_msgs:/home/manab/colcon_ws/install/eyantra_warehouse:/home/manab/colcon_ws/install/ebot_nav2:/home/manab/colcon_ws/install/ebot_description:/home/manab/ros2_ws/install/examples_rclcpp_wait_set:/home/manab/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/manab/ros2_ws/install/examples_rclcpp_minimal_timer:/home/manab/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclcpp_minimal_service:/home/manab/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/manab/ros2_ws/install/examples_rclcpp_minimal_composition:/home/manab/ros2_ws/install/examples_rclcpp_minimal_client:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/manab/ros2_ws/install/examples_rclcpp_cbg_executor:/home/manab/ros2_ws/install/examples_rclcpp_async_client:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/ur_simulation_gazebo -- -j4 -l4
+[6.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/manab/colcon_ws/install/ur_moveit_config:/home/manab/colcon_ws/install/ur_description:/home/manab/colcon_ws/install/ur_simulation_gazebo:/home/manab/colcon_ws/install/realsense_gazebo_plugin:/home/manab/colcon_ws/install/pymoveit2:/home/manab/colcon_ws/install/linkattacher_msgs:/home/manab/colcon_ws/install/eyantra_warehouse:/home/manab/colcon_ws/install/ebot_nav2:/home/manab/colcon_ws/install/ebot_description:/home/manab/ros2_ws/install/examples_rclcpp_wait_set:/home/manab/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/manab/ros2_ws/install/examples_rclcpp_minimal_timer:/home/manab/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclcpp_minimal_service:/home/manab/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/manab/ros2_ws/install/examples_rclcpp_minimal_composition:/home/manab/ros2_ws/install/examples_rclcpp_minimal_client:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/manab/ros2_ws/install/examples_rclcpp_cbg_executor:/home/manab/ros2_ws/install/examples_rclcpp_async_client:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/ur_simulation_gazebo -- -j4 -l4
+[6.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/manab/colcon_ws/install/ur_moveit_config:/home/manab/colcon_ws/install/ur_description:/home/manab/colcon_ws/install/ur_simulation_gazebo:/home/manab/colcon_ws/install/realsense_gazebo_plugin:/home/manab/colcon_ws/install/pymoveit2:/home/manab/colcon_ws/install/linkattacher_msgs:/home/manab/colcon_ws/install/eyantra_warehouse:/home/manab/colcon_ws/install/ebot_nav2:/home/manab/colcon_ws/install/ebot_description:/home/manab/ros2_ws/install/examples_rclcpp_wait_set:/home/manab/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/manab/ros2_ws/install/examples_rclcpp_minimal_timer:/home/manab/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclcpp_minimal_service:/home/manab/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/manab/ros2_ws/install/examples_rclcpp_minimal_composition:/home/manab/ros2_ws/install/examples_rclcpp_minimal_client:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/manab/ros2_ws/install/examples_rclcpp_cbg_executor:/home/manab/ros2_ws/install/examples_rclcpp_async_client:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/ur_simulation_gazebo
+[6.253s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_simulation_gazebo)
+[6.254s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_simulation_gazebo' for CMake module files
+[6.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/manab/colcon_ws/install/ur_moveit_config:/home/manab/colcon_ws/install/ur_description:/home/manab/colcon_ws/install/ur_simulation_gazebo:/home/manab/colcon_ws/install/realsense_gazebo_plugin:/home/manab/colcon_ws/install/pymoveit2:/home/manab/colcon_ws/install/linkattacher_msgs:/home/manab/colcon_ws/install/eyantra_warehouse:/home/manab/colcon_ws/install/ebot_nav2:/home/manab/colcon_ws/install/ebot_description:/home/manab/ros2_ws/install/examples_rclcpp_wait_set:/home/manab/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/manab/ros2_ws/install/examples_rclcpp_minimal_timer:/home/manab/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclcpp_minimal_service:/home/manab/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/manab/ros2_ws/install/examples_rclcpp_minimal_composition:/home/manab/ros2_ws/install/examples_rclcpp_minimal_client:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/manab/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/manab/ros2_ws/install/examples_rclcpp_cbg_executor:/home/manab/ros2_ws/install/examples_rclcpp_async_client:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/ur_simulation_gazebo
+[6.262s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_simulation_gazebo' for CMake config files
+[6.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_simulation_gazebo', 'cmake_prefix_path')
+[6.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.ps1'
+[6.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.dsv'
+[6.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.sh'
+[6.278s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_simulation_gazebo/bin'
+[6.279s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_simulation_gazebo/lib/pkgconfig/ur_simulation_gazebo.pc'
+[6.279s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_simulation_gazebo/lib/python3.10/site-packages'
+[6.280s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_simulation_gazebo/bin'
+[6.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.ps1'
+[6.286s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv'
+[6.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.sh'
+[6.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.bash'
+[6.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.zsh'
+[6.301s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/ur_simulation_gazebo/share/colcon-core/packages/ur_simulation_gazebo)
+[6.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_simulation_gazebo)
+[6.498s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_simulation_gazebo' for CMake module files
+[6.502s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_simulation_gazebo' for CMake config files
+[6.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_simulation_gazebo', 'cmake_prefix_path')
+[6.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.ps1'
+[6.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.dsv'
+[6.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.sh'
+[6.505s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_simulation_gazebo/bin'
+[6.505s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_simulation_gazebo/lib/pkgconfig/ur_simulation_gazebo.pc'
+[6.505s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_simulation_gazebo/lib/python3.10/site-packages'
+[6.506s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur_simulation_gazebo/bin'
+[6.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.ps1'
+[6.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv'
+[6.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.sh'
+[6.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.bash'
+[6.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.zsh'
+[6.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/ur_simulation_gazebo/share/colcon-core/packages/ur_simulation_gazebo)
+[7.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/src/ur5_control': PYTHONPATH=/home/manab/colcon_ws/build/ur5_control/prefix_override:/home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5_control build --build-base /home/manab/colcon_ws/build/ur5_control/build install --record /home/manab/colcon_ws/build/ur5_control/install.log --single-version-externally-managed install_data
+[7.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/linkattacher_msgs -- -j4 -l4
+[7.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manab/colcon_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/linkattacher_msgs
+[7.762s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[7.763s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/linkattacher_msgs' for CMake module files
+[7.766s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/linkattacher_msgs' for CMake config files
+[7.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[7.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[7.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[7.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/linkattacher_msgs
+[7.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[7.782s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/linkattacher_msgs/lib'
+[7.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[7.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[7.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[7.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[7.787s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/linkattacher_msgs/bin'
+[7.788s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[7.789s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/linkattacher_msgs/lib/python3.10/site-packages'
+[7.789s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/linkattacher_msgs/bin'
+[7.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[7.793s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[7.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[7.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[7.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[7.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[8.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[8.371s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/linkattacher_msgs' for CMake module files
+[8.372s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/linkattacher_msgs' for CMake config files
+[8.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[8.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[8.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[8.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[8.392s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/linkattacher_msgs/lib'
+[8.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[8.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[8.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[8.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[8.406s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/linkattacher_msgs/bin'
+[8.406s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[8.407s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/linkattacher_msgs/lib/python3.10/site-packages'
+[8.407s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/linkattacher_msgs/bin'
+[8.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[8.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[8.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[8.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[8.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[8.441s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[10.287s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur5_control' for CMake module files
+[10.288s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur5_control' for CMake config files
+[10.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manab/colcon_ws/src/ur5_control' returned '0': PYTHONPATH=/home/manab/colcon_ws/build/ur5_control/prefix_override:/home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5_control build --build-base /home/manab/colcon_ws/build/ur5_control/build install --record /home/manab/colcon_ws/build/ur5_control/install.log --single-version-externally-managed install_data
+[10.291s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur5_control/lib'
+[10.293s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur5_control/bin'
+[10.293s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur5_control/lib/pkgconfig/ur5_control.pc'
+[10.294s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages'
+[10.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_control', 'pythonpath')
+[10.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur5_control/share/ur5_control/hook/pythonpath.ps1'
+[10.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manab/colcon_ws/install/ur5_control/share/ur5_control/hook/pythonpath.dsv'
+[10.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manab/colcon_ws/install/ur5_control/share/ur5_control/hook/pythonpath.sh'
+[10.304s] Level 1:colcon.colcon_core.environment:checking '/home/manab/colcon_ws/install/ur5_control/bin'
+[10.305s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_control)
+[10.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur5_control/share/ur5_control/package.ps1'
+[10.306s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manab/colcon_ws/install/ur5_control/share/ur5_control/package.dsv'
+[10.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur5_control/share/ur5_control/package.sh'
+[10.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur5_control/share/ur5_control/package.bash'
+[10.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/manab/colcon_ws/install/ur5_control/share/ur5_control/package.zsh'
+[10.309s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manab/colcon_ws/install/ur5_control/share/colcon-core/packages/ur5_control)
+[10.311s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.313s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.331s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.331s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.331s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.374s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.375s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manab/colcon_ws/install/local_setup.ps1'
+[10.378s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/manab/colcon_ws/install/_local_setup_util_ps1.py'
+[10.384s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manab/colcon_ws/install/setup.ps1'
+[10.388s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manab/colcon_ws/install/local_setup.sh'
+[10.389s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/manab/colcon_ws/install/_local_setup_util_sh.py'
+[10.389s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manab/colcon_ws/install/setup.sh'
+[10.392s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manab/colcon_ws/install/local_setup.bash'
+[10.393s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manab/colcon_ws/install/setup.bash'
+[10.396s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manab/colcon_ws/install/local_setup.zsh'
+[10.397s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manab/colcon_ws/install/setup.zsh'

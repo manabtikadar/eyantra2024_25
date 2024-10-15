@@ -1,0 +1,36 @@
+/home/manab/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+/home/manab/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+creating ur5_control.egg-info
+writing ur5_control.egg-info/PKG-INFO
+writing dependency_links to ur5_control.egg-info/dependency_links.txt
+writing entry points to ur5_control.egg-info/entry_points.txt
+writing requirements to ur5_control.egg-info/requires.txt
+writing top-level names to ur5_control.egg-info/top_level.txt
+writing manifest file 'ur5_control.egg-info/SOURCES.txt'
+reading manifest file 'ur5_control.egg-info/SOURCES.txt'
+writing manifest file 'ur5_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/manab/colcon_ws/src/ur5_control/install/ur5_control/lib/python3.10/site-packages/ur5-control.egg-link (link to .)
+Installing task1b script to /home/manab/colcon_ws/src/ur5_control/install/ur5_control/lib/ur5_control
+
+Installed /home/manab/colcon_ws/src/ur5_control/build/ur5_control
+running symlink_data
+creating /home/manab/colcon_ws/src/ur5_control/install/ur5_control/share/ament_index/resource_index/packages
+symbolically linking /home/manab/colcon_ws/src/ur5_control/build/ur5_control/resource/ur5_control -> /home/manab/colcon_ws/src/ur5_control/install/ur5_control/share/ament_index/resource_index/packages
+symbolically linking /home/manab/colcon_ws/src/ur5_control/build/ur5_control/package.xml -> /home/manab/colcon_ws/src/ur5_control/install/ur5_control/share/ur5_control
+symbolically linking /home/manab/colcon_ws/src/ur5_control/build/ur5_control/ur5_control/__init__.py -> /home/manab/colcon_ws/src/ur5_control/install/ur5_control/lib/ur5_control

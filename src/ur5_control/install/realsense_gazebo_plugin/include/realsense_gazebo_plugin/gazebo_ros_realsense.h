@@ -1,0 +1,1 @@
+/home/manab/colcon_ws/src/realsense_gazebo_plugin/include/realsense_gazebo_plugin/gazebo_ros_realsense.h

@@ -1,0 +1,22 @@
+/home/manab/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/ur5_control/ur5_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/ur5_control/ur5_control.egg-info/dependency_links.txt
+writing entry points to ../../build/ur5_control/ur5_control.egg-info/entry_points.txt
+writing requirements to ../../build/ur5_control/ur5_control.egg-info/requires.txt
+writing top-level names to ../../build/ur5_control/ur5_control.egg-info/top_level.txt
+writing manifest file '../../build/ur5_control/ur5_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ur5_control/task1b_boiler_plate.py -> /home/manab/colcon_ws/build/ur5_control/build/lib/ur5_control
+copying ur5_control/task1b_boiler_plate_revised.py -> /home/manab/colcon_ws/build/ur5_control/build/lib/ur5_control
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages/ur5_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ur5_control/ur5_control.egg-info to /home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages/ur5_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing task1b script to /home/manab/colcon_ws/install/ur5_control/lib/ur5_control
+writing list of installed files to '/home/manab/colcon_ws/build/ur5_control/install.log'

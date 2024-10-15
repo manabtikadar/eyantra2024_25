@@ -1,0 +1,92 @@
+[0.031s] Invoking command in '/home/manab/colcon_ws/src/ur5_control/build/ebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/manab/colcon_ws/src/ebot_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manab/colcon_ws/src/ur5_control/install/ebot_description
+[0.187s] -- The C compiler identification is GNU 11.4.0
+[0.323s] -- The CXX compiler identification is GNU 11.4.0
+[0.335s] -- Detecting C compiler ABI info
+[0.472s] -- Detecting C compiler ABI info - done
+[0.482s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.482s] -- Detecting C compile features
+[0.483s] -- Detecting C compile features - done
+[0.486s] -- Detecting CXX compiler ABI info
+[0.653s] -- Detecting CXX compiler ABI info - done
+[0.667s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.667s] -- Detecting CXX compile features
+[0.668s] -- Detecting CXX compile features - done
+[0.674s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.574s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.710s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.836s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.934s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.952s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.964s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.989s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.034s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.234s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.246s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.424s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.482s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.558s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.591s] -- Looking for pthread.h
+[2.763s] -- Looking for pthread.h - found
+[2.763s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.980s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.981s] -- Found Threads: TRUE  
+[3.116s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[3.129s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[3.243s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[3.249s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.445s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.457s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.463s] -- Added test 'lint_cmake' to check CMake code style
+[3.465s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.467s] -- Added test 'xmllint' to check XML markup files
+[3.472s] -- Configuring done
+[3.477s] -- Generating done
+[3.477s] -- Build files have been written to: /home/manab/colcon_ws/src/ur5_control/build/ebot_description
+[3.495s] Invoked command in '/home/manab/colcon_ws/src/ur5_control/build/ebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/manab/colcon_ws/src/ebot_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manab/colcon_ws/src/ur5_control/install/ebot_description
+[3.496s] Invoking command in '/home/manab/colcon_ws/src/ur5_control/build/ebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/src/ur5_control/build/ebot_description -- -j4 -l4
+[3.568s] Invoked command in '/home/manab/colcon_ws/src/ur5_control/build/ebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/src/ur5_control/build/ebot_description -- -j4 -l4
+[3.618s] Invoking command in '/home/manab/colcon_ws/src/ur5_control/build/ebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/src/ur5_control/build/ebot_description
+[3.633s] -- Install configuration: "RelWithDebInfo"
+[3.634s] -- Execute custom install script
+[3.637s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//launch/ebot_gazebo_launch.py
+[3.653s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//launch/spawn_robot.py
+[3.669s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//launch/start_world_launch.py
+[3.683s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//launch/start_world_task1b_launch.py
+[3.699s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//launch/start_world_task1c_launch.py
+[3.714s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//worlds/empty.world
+[3.734s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//models/ebot/ebot.gazebo
+[3.755s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//models/ebot/ebot_description.xacro
+[3.778s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/FUS1.STL
+[3.805s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/FUS2.STL
+[3.839s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/FUS3.STL
+[3.859s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/FUS4.STL
+[3.884s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/FWL.STL
+[3.900s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/FWR.STL
+[3.916s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/LHUS10.STL
+[3.931s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/LHUS9.STL
+[3.944s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/RHUS7.STL
+[3.959s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/RHUS9.STL
+[3.971s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/RUS5.STL
+[3.984s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/RUS6.STL
+[3.998s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/RWL.STL
+[4.007s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/RWR.STL
+[4.023s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/chassis.dae
+[4.038s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//meshes/robot_base.stl
+[4.056s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//plugins/libgazebo_collision_sensor.so
+[4.077s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description//plugins/libgazebo_ros_vacuum_gripper.so
+[4.101s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ament_index/resource_index/package_run_dependencies/ebot_description
+[4.119s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ament_index/resource_index/parent_prefix_path/ebot_description
+[4.137s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description/environment/ament_prefix_path.sh
+[4.151s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description/environment/ament_prefix_path.dsv
+[4.168s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description/environment/path.sh
+[4.182s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description/environment/path.dsv
+[4.197s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description/local_setup.bash
+[4.209s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description/local_setup.sh
+[4.221s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description/local_setup.zsh
+[4.236s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description/local_setup.dsv
+[4.253s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description/package.dsv
+[4.270s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ament_index/resource_index/packages/ebot_description
+[4.285s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description/cmake/ebot_descriptionConfig.cmake
+[4.309s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description/cmake/ebot_descriptionConfig-version.cmake
+[4.324s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_description/share/ebot_description/package.xml
+[4.342s] Invoked command in '/home/manab/colcon_ws/src/ur5_control/build/ebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/src/ur5_control/build/ebot_description

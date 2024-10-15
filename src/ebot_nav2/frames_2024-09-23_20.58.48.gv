@@ -1,0 +1,26 @@
+digraph G {
+"world" -> "odom"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ebot_base" -> "FUS1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ebot_base_link" -> "ebot_base"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ebot_base" -> "FUS2"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ebot_base" -> "FUS3"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ebot_base" -> "FUS4"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ebot_base" -> "LHUS10"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ebot_base" -> "LHUS9"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ebot_base" -> "RHUS7"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ebot_base" -> "RHUS9"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ebot_base" -> "ultrasonic_rl"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ebot_base" -> "ultrasonic_rr"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ebot_base_link" -> "base_footprint"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"odom" -> "ebot_base_link"[label=" Broadcaster: default_authority\nAverage rate: 100.221\nBuffer length: 4.53\nMost recent transform: 626.791\nOldest transform: 622.261\n"];
+"ebot_base" -> "imu_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ebot_base" -> "laser"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ebot_base_link" -> "FWR"[label=" Broadcaster: default_authority\nAverage rate: 100.22\nBuffer length: 4.54\nMost recent transform: 626.801\nOldest transform: 622.261\n"];
+"ebot_base_link" -> "FWL"[label=" Broadcaster: default_authority\nAverage rate: 100.22\nBuffer length: 4.54\nMost recent transform: 626.801\nOldest transform: 622.261\n"];
+"ebot_base_link" -> "RWR"[label=" Broadcaster: default_authority\nAverage rate: 100.221\nBuffer length: 4.53\nMost recent transform: 626.791\nOldest transform: 622.261\n"];
+"ebot_base_link" -> "RWL"[label=" Broadcaster: default_authority\nAverage rate: 100.221\nBuffer length: 4.53\nMost recent transform: 626.791\nOldest transform: 622.261\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1727105328.6338804"[ shape=plaintext ] ;
+}->"world";
+}

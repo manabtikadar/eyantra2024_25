@@ -1,0 +1,1 @@
+/home/manab/colcon_ws/src/ur_description/scripts/armed/spawner_box_com.py

@@ -1,0 +1,24 @@
+[0.031s] Invoking command in '/home/manab/colcon_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/linkattacher_msgs -- -j4 -l4
+[0.097s] [ 10%] Built target linkattacher_msgs__rosidl_generator_c
+[0.113s] [ 12%] Built target linkattacher_msgs__cpp
+[0.135s] [ 12%] Built target ament_cmake_python_copy_linkattacher_msgs
+[0.146s] [ 23%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c
+[0.159s] [ 33%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c
+[0.175s] [ 43%] Built target linkattacher_msgs__rosidl_typesupport_c
+[0.187s] [ 53%] Built target linkattacher_msgs__rosidl_typesupport_introspection_cpp
+[0.194s] [ 64%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_cpp
+[0.225s] [ 74%] Built target linkattacher_msgs__rosidl_typesupport_cpp
+[0.259s] [ 74%] Built target linkattacher_msgs
+[0.304s] [ 76%] Built target linkattacher_msgs__py
+[0.366s] [ 84%] Built target linkattacher_msgs__rosidl_generator_py
+[0.405s] [ 89%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c__pyext
+[0.411s] [ 94%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.414s] [100%] Built target linkattacher_msgs__rosidl_typesupport_c__pyext
+[0.610s] running egg_info
+[0.639s] writing linkattacher_msgs.egg-info/PKG-INFO
+[0.639s] writing dependency_links to linkattacher_msgs.egg-info/dependency_links.txt
+[0.640s] writing top-level names to linkattacher_msgs.egg-info/top_level.txt
+[0.949s] reading manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[0.949s] writing manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[1.028s] [100%] Built target ament_cmake_python_build_linkattacher_msgs_egg
+[1.061s] Invoked command in '/home/manab/colcon_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/linkattacher_msgs -- -j4 -l4

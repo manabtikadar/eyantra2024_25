@@ -1,0 +1,1 @@
+/home/manab/colcon_ws/src/ebot_nav2/scripts/ebot_nav_cmd.py

@@ -1,0 +1,1 @@
+/home/manab/colcon_ws/src/ur5_control/build/ur_description/ament_cmake_core/ur_descriptionConfig-version.cmake

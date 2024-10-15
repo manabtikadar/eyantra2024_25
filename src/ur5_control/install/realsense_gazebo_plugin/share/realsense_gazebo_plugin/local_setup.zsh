@@ -1,0 +1,1 @@
+/home/manab/colcon_ws/src/ur5_control/build/realsense_gazebo_plugin/ament_cmake_environment_hooks/local_setup.zsh

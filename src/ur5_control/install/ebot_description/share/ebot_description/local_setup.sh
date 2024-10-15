@@ -1,0 +1,1 @@
+/home/manab/colcon_ws/src/ur5_control/build/ebot_description/ament_cmake_environment_hooks/local_setup.sh

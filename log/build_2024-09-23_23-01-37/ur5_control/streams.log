@@ -1,0 +1,36 @@
+[2.132s] Invoking command in '/home/manab/colcon_ws/src/ur5_control': PYTHONPATH=/home/manab/colcon_ws/build/ur5_control/prefix_override:/home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5_control build --build-base /home/manab/colcon_ws/build/ur5_control/build install --record /home/manab/colcon_ws/build/ur5_control/install.log --single-version-externally-managed install_data
+[2.750s] /home/manab/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.750s]   warnings.warn(msg)
+[3.139s] running egg_info
+[3.140s] creating ../../build/ur5_control/ur5_control.egg-info
+[3.160s] writing ../../build/ur5_control/ur5_control.egg-info/PKG-INFO
+[3.162s] writing dependency_links to ../../build/ur5_control/ur5_control.egg-info/dependency_links.txt
+[3.164s] writing entry points to ../../build/ur5_control/ur5_control.egg-info/entry_points.txt
+[3.165s] writing requirements to ../../build/ur5_control/ur5_control.egg-info/requires.txt
+[3.165s] writing top-level names to ../../build/ur5_control/ur5_control.egg-info/top_level.txt
+[3.166s] writing manifest file '../../build/ur5_control/ur5_control.egg-info/SOURCES.txt'
+[5.788s] writing manifest file '../../build/ur5_control/ur5_control.egg-info/SOURCES.txt'
+[5.788s] running build
+[5.788s] running build_py
+[5.788s] creating /home/manab/colcon_ws/build/ur5_control/build/lib/ur5_control
+[5.796s] copying ur5_control/task1b_boiler_plate.py -> /home/manab/colcon_ws/build/ur5_control/build/lib/ur5_control
+[5.796s] copying ur5_control/__init__.py -> /home/manab/colcon_ws/build/ur5_control/build/lib/ur5_control
+[5.796s] running install
+[5.829s] running install_lib
+[5.883s] creating /home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages/ur5_control
+[5.883s] copying /home/manab/colcon_ws/build/ur5_control/build/lib/ur5_control/task1b_boiler_plate.py -> /home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages/ur5_control
+[5.883s] copying /home/manab/colcon_ws/build/ur5_control/build/lib/ur5_control/__init__.py -> /home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages/ur5_control
+[5.884s] byte-compiling /home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages/ur5_control/task1b_boiler_plate.py to task1b_boiler_plate.cpython-310.pyc
+[5.885s] byte-compiling /home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages/ur5_control/__init__.py to __init__.cpython-310.pyc
+[5.885s] running install_data
+[5.891s] creating /home/manab/colcon_ws/install/ur5_control/share/ament_index/resource_index/packages
+[5.891s] copying resource/ur5_control -> /home/manab/colcon_ws/install/ur5_control/share/ament_index/resource_index/packages
+[5.891s] copying package.xml -> /home/manab/colcon_ws/install/ur5_control/share/ur5_control
+[5.895s] creating /home/manab/colcon_ws/install/ur5_control/lib/ur5_control
+[5.895s] copying ur5_control/__init__.py -> /home/manab/colcon_ws/install/ur5_control/lib/ur5_control
+[5.895s] running install_egg_info
+[5.947s] Copying ../../build/ur5_control/ur5_control.egg-info to /home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages/ur5_control-0.0.0-py3.10.egg-info
+[5.950s] running install_scripts
+[6.216s] Installing task1b script to /home/manab/colcon_ws/install/ur5_control/lib/ur5_control
+[6.217s] writing list of installed files to '/home/manab/colcon_ws/build/ur5_control/install.log'
+[6.317s] Invoked command in '/home/manab/colcon_ws/src/ur5_control' returned '0': PYTHONPATH=/home/manab/colcon_ws/build/ur5_control/prefix_override:/home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5_control build --build-base /home/manab/colcon_ws/build/ur5_control/build install --record /home/manab/colcon_ws/build/ur5_control/install.log --single-version-externally-managed install_data

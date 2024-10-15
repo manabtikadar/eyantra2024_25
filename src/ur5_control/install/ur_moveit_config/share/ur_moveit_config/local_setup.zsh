@@ -1,0 +1,1 @@
+/home/manab/colcon_ws/src/ur5_control/build/ur_moveit_config/ament_cmake_environment_hooks/local_setup.zsh

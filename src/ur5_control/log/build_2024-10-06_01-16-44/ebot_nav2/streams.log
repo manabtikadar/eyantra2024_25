@@ -1,0 +1,100 @@
+[0.026s] Invoking command in '/home/manab/colcon_ws/src/ur5_control/build/ebot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/manab/colcon_ws/src/ebot_nav2 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manab/colcon_ws/src/ur5_control/install/ebot_nav2
+[0.184s] -- The C compiler identification is GNU 11.4.0
+[0.313s] -- The CXX compiler identification is GNU 11.4.0
+[0.328s] -- Detecting C compiler ABI info
+[0.472s] -- Detecting C compiler ABI info - done
+[0.489s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.489s] -- Detecting C compile features
+[0.489s] -- Detecting C compile features - done
+[0.500s] -- Detecting CXX compiler ABI info
+[0.658s] -- Detecting CXX compiler ABI info - done
+[0.667s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.668s] -- Detecting CXX compile features
+[0.669s] -- Detecting CXX compile features - done
+[0.677s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.494s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.595s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.687s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.836s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.854s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.880s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.936s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.028s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.231s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.241s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.418s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.469s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.559s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.585s] -- Looking for pthread.h
+[2.701s] -- Looking for pthread.h - found
+[2.702s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.971s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.972s] -- Found Threads: TRUE  
+[3.108s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[3.122s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[3.236s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[3.244s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.481s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.481s] -- Configured cppcheck include dirs: 
+[3.481s] -- Configured cppcheck exclude dirs and/or files: 
+[3.490s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.492s] -- Added test 'lint_cmake' to check CMake code style
+[3.496s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.509s] -- Added test 'uncrustify' to check C / C++ code style
+[3.509s] -- Configured uncrustify additional arguments: 
+[3.511s] -- Added test 'xmllint' to check XML markup files
+[3.517s] -- Configuring done
+[3.524s] -- Generating done
+[3.527s] -- Build files have been written to: /home/manab/colcon_ws/src/ur5_control/build/ebot_nav2
+[3.550s] Invoked command in '/home/manab/colcon_ws/src/ur5_control/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/manab/colcon_ws/src/ebot_nav2 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manab/colcon_ws/src/ur5_control/install/ebot_nav2
+[3.558s] Invoking command in '/home/manab/colcon_ws/src/ur5_control/build/ebot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/src/ur5_control/build/ebot_nav2 -- -j4 -l4
+[3.664s] Built target ament_cmake_python_symlink_ebot_nav2
+[4.180s] running egg_info
+[4.181s] creating ebot_nav2.egg-info
+[4.218s] writing ebot_nav2.egg-info/PKG-INFO
+[4.219s] writing dependency_links to ebot_nav2.egg-info/dependency_links.txt
+[4.219s] writing top-level names to ebot_nav2.egg-info/top_level.txt
+[4.219s] writing manifest file 'ebot_nav2.egg-info/SOURCES.txt'
+[5.627s] reading manifest file 'ebot_nav2.egg-info/SOURCES.txt'
+[5.628s] writing manifest file 'ebot_nav2.egg-info/SOURCES.txt'
+[5.718s] Built target ament_cmake_python_build_ebot_nav2_egg
+[5.732s] Invoked command in '/home/manab/colcon_ws/src/ur5_control/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/src/ur5_control/build/ebot_nav2 -- -j4 -l4
+[5.778s] Invoking command in '/home/manab/colcon_ws/src/ur5_control/build/ebot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/src/ur5_control/build/ebot_nav2
+[5.787s] -- Install configuration: "RelWithDebInfo"
+[5.787s] -- Execute custom install script
+[5.791s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2//launch/ebot_bringup_launch.py
+[5.813s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2//config/ekf.yaml
+[5.829s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2//config/mapper_params_online_async.yaml
+[5.845s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2//maps/map_file_here.text
+[5.860s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2//maps/my_map.data
+[5.875s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2//maps/my_map.pgm
+[5.891s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2//maps/my_map.posegraph
+[5.906s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2//maps/my_map.yaml
+[5.923s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2//params/nav2_params.yaml
+[5.940s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2//rviz/nav2_default_view.rviz
+[5.958s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2/environment/pythonpath.sh
+[5.973s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2/environment/pythonpath.dsv
+[5.991s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/local/lib/python3.10/dist-packages/ebot_nav2-0.0.0-py3.10.egg-info/PKG-INFO
+[6.012s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/local/lib/python3.10/dist-packages/ebot_nav2-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.028s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/local/lib/python3.10/dist-packages/ebot_nav2-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.040s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/local/lib/python3.10/dist-packages/ebot_nav2-0.0.0-py3.10.egg-info/top_level.txt
+[6.053s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/local/lib/python3.10/dist-packages/ebot_nav2/__init__.py
+[6.071s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/lib/ebot_nav2/ebot_nav_cmd.py
+[6.086s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ament_index/resource_index/package_run_dependencies/ebot_nav2
+[6.096s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ament_index/resource_index/parent_prefix_path/ebot_nav2
+[6.109s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2/environment/ament_prefix_path.sh
+[6.122s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2/environment/ament_prefix_path.dsv
+[6.135s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2/environment/path.sh
+[6.165s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2/environment/path.dsv
+[6.181s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2/local_setup.bash
+[6.192s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2/local_setup.sh
+[6.211s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2/local_setup.zsh
+[6.227s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2/local_setup.dsv
+[6.241s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2/package.dsv
+[6.257s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ament_index/resource_index/packages/ebot_nav2
+[6.266s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2/cmake/ebot_nav2Config.cmake
+[6.283s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2/cmake/ebot_nav2Config-version.cmake
+[6.295s] -- Symlinking: /home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/share/ebot_nav2/package.xml
+[6.364s] Listing '/home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/local/lib/python3.10/dist-packages/ebot_nav2'...
+[6.364s] Compiling '/home/manab/colcon_ws/src/ur5_control/install/ebot_nav2/local/lib/python3.10/dist-packages/ebot_nav2/__init__.py'...
+[6.377s] Invoked command in '/home/manab/colcon_ws/src/ur5_control/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/src/ur5_control/build/ebot_nav2

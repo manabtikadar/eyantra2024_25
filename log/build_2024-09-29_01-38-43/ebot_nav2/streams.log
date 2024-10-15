@@ -1,0 +1,54 @@
+[0.019s] Invoking command in '/home/manab/colcon_ws/build/ebot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/colcon_ws/install/linkattacher_msgs:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/ebot_nav2 -- -j4 -l4
+[0.091s] Built target ament_cmake_python_copy_ebot_nav2
+[0.456s] running egg_info
+[0.486s] writing ebot_nav2.egg-info/PKG-INFO
+[0.486s] writing dependency_links to ebot_nav2.egg-info/dependency_links.txt
+[0.486s] writing top-level names to ebot_nav2.egg-info/top_level.txt
+[0.635s] reading manifest file 'ebot_nav2.egg-info/SOURCES.txt'
+[0.636s] writing manifest file 'ebot_nav2.egg-info/SOURCES.txt'
+[0.689s] Built target ament_cmake_python_build_ebot_nav2_egg
+[0.702s] Invoked command in '/home/manab/colcon_ws/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/colcon_ws/install/linkattacher_msgs:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/ebot_nav2 -- -j4 -l4
+[0.738s] Invoking command in '/home/manab/colcon_ws/build/ebot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/colcon_ws/install/linkattacher_msgs:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/ebot_nav2
+[0.747s] -- Install configuration: ""
+[0.747s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2//launch
+[0.747s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2//launch/ebot_bringup_launch.py
+[0.747s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2//config
+[0.749s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2//config/ekf.yaml
+[0.749s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2//config/mapper_params_online_async.yaml
+[0.749s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2//maps
+[0.749s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2//maps/my_map.yaml
+[0.749s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2//maps/map_file_here.text
+[0.749s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2//maps/my_map.posegraph
+[0.749s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2//maps/my_map.data
+[0.749s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2//maps/my_map.pgm
+[0.749s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2//params
+[0.749s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2//params/nav2_params.yaml
+[0.749s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2//rviz
+[0.749s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2//rviz/nav2_default_view.rviz
+[0.750s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/environment/pythonpath.sh
+[0.750s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/environment/pythonpath.dsv
+[0.750s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/local/lib/python3.10/dist-packages/ebot_nav2-0.0.0-py3.10.egg-info
+[0.750s] -- Installing: /home/manab/colcon_ws/install/ebot_nav2/local/lib/python3.10/dist-packages/ebot_nav2-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.750s] -- Installing: /home/manab/colcon_ws/install/ebot_nav2/local/lib/python3.10/dist-packages/ebot_nav2-0.0.0-py3.10.egg-info/PKG-INFO
+[0.750s] -- Installing: /home/manab/colcon_ws/install/ebot_nav2/local/lib/python3.10/dist-packages/ebot_nav2-0.0.0-py3.10.egg-info/top_level.txt
+[0.750s] -- Installing: /home/manab/colcon_ws/install/ebot_nav2/local/lib/python3.10/dist-packages/ebot_nav2-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.750s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/local/lib/python3.10/dist-packages/ebot_nav2
+[0.750s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/local/lib/python3.10/dist-packages/ebot_nav2/__init__.py
+[0.794s] Listing '/home/manab/colcon_ws/install/ebot_nav2/local/lib/python3.10/dist-packages/ebot_nav2'...
+[0.799s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/lib/ebot_nav2/ebot_nav_cmd.py
+[0.800s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ament_index/resource_index/package_run_dependencies/ebot_nav2
+[0.800s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ament_index/resource_index/parent_prefix_path/ebot_nav2
+[0.800s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/environment/ament_prefix_path.sh
+[0.800s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/environment/ament_prefix_path.dsv
+[0.800s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/environment/path.sh
+[0.800s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/environment/path.dsv
+[0.801s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/local_setup.bash
+[0.801s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/local_setup.sh
+[0.803s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/local_setup.zsh
+[0.803s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/local_setup.dsv
+[0.803s] -- Installing: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.dsv
+[0.803s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ament_index/resource_index/packages/ebot_nav2
+[0.803s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/cmake/ebot_nav2Config.cmake
+[0.803s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/cmake/ebot_nav2Config-version.cmake
+[0.803s] -- Up-to-date: /home/manab/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.xml
+[0.807s] Invoked command in '/home/manab/colcon_ws/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/colcon_ws/install/linkattacher_msgs:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/ebot_nav2

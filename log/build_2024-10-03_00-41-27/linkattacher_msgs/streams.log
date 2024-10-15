@@ -1,0 +1,172 @@
+[0.034s] Invoking command in '/home/manab/colcon_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/linkattacher_msgs -- -j4 -l4
+[0.125s] [  2%] Built target linkattacher_msgs__cpp
+[0.143s] [  2%] Built target ament_cmake_python_copy_linkattacher_msgs
+[0.147s] [ 12%] Built target linkattacher_msgs__rosidl_generator_c
+[0.172s] [ 23%] Built target linkattacher_msgs__rosidl_typesupport_cpp
+[0.200s] [ 43%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_cpp
+[0.200s] [ 43%] Built target linkattacher_msgs__rosidl_typesupport_introspection_cpp
+[0.264s] [ 53%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c
+[0.280s] [ 64%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c
+[0.301s] [ 74%] Built target linkattacher_msgs__rosidl_typesupport_c
+[0.328s] [ 74%] Built target linkattacher_msgs
+[0.355s] [ 76%] Built target linkattacher_msgs__py
+[0.422s] [ 84%] Built target linkattacher_msgs__rosidl_generator_py
+[0.459s] [ 89%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.477s] [ 94%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c__pyext
+[0.501s] [100%] Built target linkattacher_msgs__rosidl_typesupport_c__pyext
+[0.632s] running egg_info
+[0.660s] writing linkattacher_msgs.egg-info/PKG-INFO
+[0.660s] writing dependency_links to linkattacher_msgs.egg-info/dependency_links.txt
+[0.661s] writing top-level names to linkattacher_msgs.egg-info/top_level.txt
+[0.841s] reading manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[0.850s] writing manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[0.893s] [100%] Built target ament_cmake_python_build_linkattacher_msgs_egg
+[1.048s] Invoked command in '/home/manab/colcon_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/linkattacher_msgs -- -j4 -l4
+[1.181s] Invoking command in '/home/manab/colcon_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/linkattacher_msgs
+[1.195s] -- Install configuration: ""
+[1.195s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv
+[1.195s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv
+[1.196s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv
+[1.196s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/ament_index/resource_index/rosidl_interfaces/linkattacher_msgs
+[1.197s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.198s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.199s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.h
+[1.199s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.199s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.h
+[1.199s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__functions.h
+[1.199s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.h
+[1.199s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__functions.c
+[1.199s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__functions.c
+[1.199s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.h
+[1.199s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__functions.h
+[1.199s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.h
+[1.199s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.h
+[1.199s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[1.200s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.200s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.sh
+[1.200s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.dsv
+[1.203s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_c.so
+[1.204s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.204s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.204s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.204s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_c.h
+[1.204s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_c.h
+[1.204s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[1.204s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.205s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_c.so
+[1.205s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.205s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.206s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.206s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_c.h
+[1.206s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.c
+[1.207s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.c
+[1.207s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_c.h
+[1.207s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[1.207s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.207s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_c.so
+[1.208s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_c.so
+[1.208s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.208s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.209s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.hpp
+[1.209s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.209s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.hpp
+[1.209s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__builder.hpp
+[1.210s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.hpp
+[1.210s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__traits.hpp
+[1.210s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__traits.hpp
+[1.210s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__builder.hpp
+[1.210s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.hpp
+[1.210s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.210s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.211s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.212s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/dds_fastrtps
+[1.212s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_cpp.hpp
+[1.212s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_cpp.hpp
+[1.212s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[1.212s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.212s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.212s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.212s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.212s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.212s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.cpp
+[1.212s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_cpp.hpp
+[1.213s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_cpp.hpp
+[1.213s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.cpp
+[1.213s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_cpp.so
+[1.213s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_cpp.so
+[1.213s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.sh
+[1.213s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.dsv
+[1.213s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info
+[1.213s] -- Installing: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.213s] -- Installing: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.213s] -- Installing: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.214s] -- Installing: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.214s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs
+[1.215s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_c.c
+[1.215s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.215s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/__init__.py
+[1.215s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.215s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.215s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/liblinkattacher_msgs__rosidl_generator_py.so
+[1.215s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.215s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv
+[1.215s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_detach_link_s.c
+[1.215s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_attach_link.py
+[1.215s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/__init__.py
+[1.216s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_attach_link_s.c
+[1.216s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_detach_link.py
+[1.216s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.267s] Listing '/home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs'...
+[1.267s] Listing '/home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv'...
+[1.271s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.272s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.272s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.273s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_py.so
+[1.273s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.idl
+[1.273s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.idl
+[1.273s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv
+[1.273s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Request.msg
+[1.273s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Response.msg
+[1.273s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv
+[1.273s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Request.msg
+[1.274s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Response.msg
+[1.274s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/ament_index/resource_index/package_run_dependencies/linkattacher_msgs
+[1.274s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/ament_index/resource_index/parent_prefix_path/linkattacher_msgs
+[1.274s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.sh
+[1.274s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.dsv
+[1.274s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.sh
+[1.274s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.dsv
+[1.274s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.bash
+[1.274s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.sh
+[1.274s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.zsh
+[1.274s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.dsv
+[1.274s] -- Installing: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv
+[1.274s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/ament_index/resource_index/packages/linkattacher_msgs
+[1.275s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport.cmake
+[1.275s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.276s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.276s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.276s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.276s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.276s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport.cmake
+[1.276s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.277s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cppExport.cmake
+[1.277s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.277s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.277s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.278s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.278s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport.cmake
+[1.278s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.278s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport.cmake
+[1.278s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.278s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake-extras.cmake
+[1.279s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.279s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.279s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.279s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.279s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.279s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.279s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig.cmake
+[1.279s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig-version.cmake
+[1.279s] -- Up-to-date: /home/manab/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.xml
+[1.282s] Invoked command in '/home/manab/colcon_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ws_moveit/install/moveit_configs_utils:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/linkattacher_msgs

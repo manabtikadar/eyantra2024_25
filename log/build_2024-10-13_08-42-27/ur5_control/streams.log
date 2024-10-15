@@ -1,0 +1,28 @@
+[3.689s] Invoking command in '/home/manab/colcon_ws/src/ur5_control': PYTHONPATH=/home/manab/colcon_ws/build/ur5_control/prefix_override:/home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5_control build --build-base /home/manab/colcon_ws/build/ur5_control/build install --record /home/manab/colcon_ws/build/ur5_control/install.log --single-version-externally-managed install_data
+[4.019s] /home/manab/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[4.020s]   warnings.warn(msg)
+[4.302s] running egg_info
+[4.332s] writing ../../build/ur5_control/ur5_control.egg-info/PKG-INFO
+[4.339s] writing dependency_links to ../../build/ur5_control/ur5_control.egg-info/dependency_links.txt
+[4.340s] writing entry points to ../../build/ur5_control/ur5_control.egg-info/entry_points.txt
+[4.340s] writing requirements to ../../build/ur5_control/ur5_control.egg-info/requires.txt
+[4.340s] writing top-level names to ../../build/ur5_control/ur5_control.egg-info/top_level.txt
+[5.893s] writing manifest file '../../build/ur5_control/ur5_control.egg-info/SOURCES.txt'
+[5.893s] running build
+[5.893s] running build_py
+[5.896s] copying ur5_control/task1b_boiler_plate.py -> /home/manab/colcon_ws/build/ur5_control/build/lib/ur5_control
+[5.897s] copying ur5_control/robot_controller.py -> /home/manab/colcon_ws/build/ur5_control/build/lib/ur5_control
+[5.902s] running install
+[5.917s] running install_lib
+[5.944s] copying /home/manab/colcon_ws/build/ur5_control/build/lib/ur5_control/task1b_boiler_plate.py -> /home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages/ur5_control
+[5.945s] copying /home/manab/colcon_ws/build/ur5_control/build/lib/ur5_control/robot_controller.py -> /home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages/ur5_control
+[5.946s] byte-compiling /home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages/ur5_control/task1b_boiler_plate.py to task1b_boiler_plate.cpython-310.pyc
+[5.950s] byte-compiling /home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages/ur5_control/robot_controller.py to robot_controller.cpython-310.pyc
+[5.953s] running install_data
+[5.955s] running install_egg_info
+[5.987s] removing '/home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages/ur5_control-0.0.0-py3.10.egg-info' (and everything under it)
+[5.988s] Copying ../../build/ur5_control/ur5_control.egg-info to /home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages/ur5_control-0.0.0-py3.10.egg-info
+[6.000s] running install_scripts
+[6.297s] Installing task1b script to /home/manab/colcon_ws/install/ur5_control/lib/ur5_control
+[6.303s] writing list of installed files to '/home/manab/colcon_ws/build/ur5_control/install.log'
+[6.510s] Invoked command in '/home/manab/colcon_ws/src/ur5_control' returned '0': PYTHONPATH=/home/manab/colcon_ws/build/ur5_control/prefix_override:/home/manab/colcon_ws/install/ur5_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5_control build --build-base /home/manab/colcon_ws/build/ur5_control/build install --record /home/manab/colcon_ws/build/ur5_control/install.log --single-version-externally-managed install_data

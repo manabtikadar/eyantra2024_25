@@ -1,0 +1,86 @@
+[0.057s] Invoking command in '/home/manab/colcon_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/manab/colcon_ws/src/pymoveit2 -DCMAKE_INSTALL_PREFIX=/home/manab/colcon_ws/install/pymoveit2
+[0.168s] -- The C compiler identification is GNU 11.4.0
+[0.246s] -- The CXX compiler identification is GNU 11.4.0
+[0.260s] -- Detecting C compiler ABI info
+[0.376s] -- Detecting C compiler ABI info - done
+[0.385s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.385s] -- Detecting C compile features
+[0.385s] -- Detecting C compile features - done
+[0.393s] -- Detecting CXX compiler ABI info
+[0.521s] -- Detecting CXX compiler ABI info - done
+[0.533s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.533s] -- Detecting CXX compile features
+[0.533s] -- Detecting CXX compile features - done
+[0.534s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.081s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.468s] -- Configuring done
+[1.485s] -- Generating done
+[1.492s] -- Build files have been written to: /home/manab/colcon_ws/build/pymoveit2
+[1.506s] Invoked command in '/home/manab/colcon_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/manab/colcon_ws/src/pymoveit2 -DCMAKE_INSTALL_PREFIX=/home/manab/colcon_ws/install/pymoveit2
+[1.506s] Invoking command in '/home/manab/colcon_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/pymoveit2 -- -j4 -l4
+[1.576s] Built target ament_cmake_python_copy_pymoveit2
+[1.951s] running egg_info
+[1.955s] creating pymoveit2.egg-info
+[1.982s] writing pymoveit2.egg-info/PKG-INFO
+[1.982s] writing dependency_links to pymoveit2.egg-info/dependency_links.txt
+[1.985s] writing top-level names to pymoveit2.egg-info/top_level.txt
+[1.989s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[2.140s] [2;36m[09/23/24 23:01:42][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending there aren't any                                                                                                                ]8;id=116827;file:///home/manab/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=455529;file:///home/manab/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[2.607s] reading manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[2.610s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[2.712s] Built target ament_cmake_python_build_pymoveit2_egg
+[2.728s] Invoked command in '/home/manab/colcon_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/manab/colcon_ws/build/pymoveit2 -- -j4 -l4
+[2.798s] Invoking command in '/home/manab/colcon_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/pymoveit2
+[2.814s] -- Install configuration: ""
+[2.815s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/environment/pythonpath.sh
+[2.818s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/environment/pythonpath.dsv
+[2.819s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-2.1.0-py3.10.egg-info
+[2.820s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-2.1.0-py3.10.egg-info/SOURCES.txt
+[2.820s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-2.1.0-py3.10.egg-info/PKG-INFO
+[2.820s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-2.1.0-py3.10.egg-info/top_level.txt
+[2.820s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-2.1.0-py3.10.egg-info/dependency_links.txt
+[2.822s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2
+[2.822s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots
+[2.822s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/ur5.py
+[2.822s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py
+[2.822s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/kinova.py
+[2.822s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2.py
+[2.822s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/__init__.py
+[2.822s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2_servo.py
+[2.907s] Listing '/home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2'...
+[2.907s] Compiling '/home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/__init__.py'...
+[2.907s] Compiling '/home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2.py'...
+[2.907s] Compiling '/home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2_servo.py'...
+[2.907s] Listing '/home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots'...
+[2.907s] Compiling '/home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py'...
+[2.907s] Compiling '/home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/kinova.py'...
+[2.907s] Compiling '/home/manab/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/ur5.py'...
+[2.918s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/lib/pymoveit2/ex_collision_object.py
+[2.918s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/lib/pymoveit2/ex_joint_goal.py
+[2.918s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/lib/pymoveit2/ex_pose_goal.py
+[2.919s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/lib/pymoveit2/ex_servo.py
+[2.919s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/lib/pymoveit2/assets
+[2.919s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/lib/pymoveit2/assets/box.stl
+[2.919s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/lib/pymoveit2/assets/rack.stl
+[2.923s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/lib/pymoveit2/assets/box1.stl
+[2.923s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/lib/pymoveit2/assets/suzanne.stl
+[2.923s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/lib/pymoveit2/assets/box3.stl
+[2.923s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/lib/pymoveit2/assets/rack_box.stl
+[2.923s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/lib/pymoveit2/assets/rack_box_again.stl
+[2.923s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/lib/pymoveit2/assets/box2.stl
+[2.928s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/ament_index/resource_index/package_run_dependencies/pymoveit2
+[2.929s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/ament_index/resource_index/parent_prefix_path/pymoveit2
+[2.929s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.sh
+[2.929s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.dsv
+[2.929s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/environment/path.sh
+[2.929s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/environment/path.dsv
+[2.929s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/local_setup.bash
+[2.929s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/local_setup.sh
+[2.929s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/local_setup.zsh
+[2.929s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/local_setup.dsv
+[2.929s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/package.dsv
+[2.929s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/ament_index/resource_index/packages/pymoveit2
+[2.930s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config.cmake
+[2.930s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config-version.cmake
+[2.930s] -- Installing: /home/manab/colcon_ws/install/pymoveit2/share/pymoveit2/package.xml
+[2.940s] Invoked command in '/home/manab/colcon_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manab/colcon_ws/install/ur5_control:/home/manab/ros2_ws/install/launch_testing_examples:/home/manab/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/manab/ros2_ws/install/examples_rclpy_minimal_service:/home/manab/ros2_ws/install/examples_rclpy_minimal_publisher:/home/manab/ros2_ws/install/examples_rclpy_minimal_client:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_server:/home/manab/ros2_ws/install/examples_rclpy_minimal_action_client:/home/manab/ros2_ws/install/examples_rclpy_guard_conditions:/home/manab/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/manab/colcon_ws/build/pymoveit2
